@@ -1,0 +1,46 @@
+129. Creating file paths: Write several examples of creating several kinds of file
+paths (for example, absolute paths, relative paths, and so on).
+130. Converting file paths: Write several examples of converting file paths (for
+example, converting a file path into a string, URI, file, and so on).
+131. Joining file paths: Write several examples of joining (combining) file paths.
+Define a fixed path and append other different paths to it (or replace a part
+of it with other paths).
+132. Constructing a path between two locations: Write several examples that
+construct a relative path between two given paths (from one path to
+another).
+133. Comparing file paths: Write several examples of comparing the given file
+paths.
+Java I/O Paths, Files, Buffers, Scanning, and Formatting Chapter 6
+[ 298 ]
+134. Walking paths: Write a program that visits all the files within a directory,
+including subdirectories. Moreover, write a program that searches a file by
+name, deletes a directory, moves a directory, and copies a directory.
+135. Watching paths: Write several programs that watch changes that occur on
+a certain path (for example, create, delete, and modify).
+136. Streaming a file's content: Write a program that streams the content of the
+given file.
+137. Searching for files/folders in a file tree: Write a program that searches for
+the given files/folders in the given file tree.
+138. Reading/writing text files efficiently: Write several programs to exemplify
+different approaches for reading and writing a text file in an efficient
+manner.
+139. Reading/writing binary files efficiently: Write several programs to
+exemplify different approaches for reading and writing a binary file in an
+efficient manner.
+140. Searching in big files: Write a program that efficiently searches the given
+string in a big file.
+141. Reading a JSON/CSV file as an object: Write a program that reads the
+given JSON/CSV file as an object (POJO).
+142. Working with temporary files/folders: Write several programs for
+working with temporary files/folders.
+143. Filtering files: Write several user-defined filters for files.
+144. Discovering mismatches between two files: Write a program that
+discovers the mismatches between two files at the byte level.
+145. Circular byte buffer: Write a program that represents an implementation
+of a circular byte buffer.
+146. Tokenizing files: Write several snippets of code to exemplify different
+techniques of tokenizing a file content.
+147. Writing formatted output directly to a file: Write a program that formats
+the given numbers (integers and doubles) and outputs them to a file.
+148. Working with Scanner: Write several snippets of code to reveal Scanner
+capabilities.

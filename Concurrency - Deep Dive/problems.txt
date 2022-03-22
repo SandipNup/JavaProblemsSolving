@@ -1,0 +1,35 @@
+213. Interruptible methods: Write a program that exemplifies the best approach
+for dealing with an interruptible method.
+214. Fork/join framework: Write a program that relies on the fork/join
+framework to sum the elements of a list. Write a program that relies on the
+fork/join framework to compute the Fibonacci number at a given position
+(for example, F12 = 144). In addition, write a program that exemplifies the
+usage of CountedCompleter.
+215. Fork/join framework and compareAndSetForkJoinTaskTag(): Write a
+program that applies the fork/join framework to a suite of interdependent
+tasks that should be executed only once (for example, task D depends on
+task C and task B, but task C depends on task B as well; therefore, task B must
+be executed only once, not twice).
+Concurrency - Deep Dive Chapter 11
+[ 635 ]
+216. CompletableFuture: Write several snippets of code to exemplify
+asynchronous code via CompletableFuture.
+217. Combining multiple CompletableFuture objects: Write several snippets
+of code to exemplify different solutions for combining multiple
+CompletableFuture objects together.
+218. Optimizing busy waiting: Write a proof of concept to exemplify the
+optimization of a busy waiting technique via onSpinWait().
+219. Task cancellation: Write a proof of concept that exemplifies the usage of a
+volatile variable for holding the cancellation state of a process.
+220. ThreadLocal: Write a proof of concept that exemplifies the usage of
+ThreadLocal.
+221. Atomic variables: Write a program that counts the integers from 1 to
+1,000,000 using a multithreaded application (Runnable).
+222. ReentrantLock: Write a program that increments the integers from 1 to
+1,000,000 using ReentrantLock.
+223. ReentrantReadWriteLock: Write a program that simulates the
+orchestration of a read-write process via ReentrantReadWriteLock.
+224. StampedLock: Write a program that simulates the orchestration of a readwrite process via StampedLock.
+225. Deadlock (dining philosophers): Write a program that reveals and solves
+the deadlock (circular wait or deadly embrace) that may occur in the famous
+dining philosophers problem.

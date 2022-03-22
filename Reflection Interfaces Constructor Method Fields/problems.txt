@@ -1,0 +1,39 @@
+149. Inspecting packages: Write several examples for inspecting Java packages
+(for example, names, a list of classes, and so on).
+150. Inspecting classes and superclasses: Write several examples for inspecting
+classes and superclasses (for example, get Class via the class name,
+modifiers, implemented interfaces, constructors, methods, and fields).
+151. Instantiating via a reflected constructor: Write a program that creates
+instances via reflection.
+Java Reflection Classes, Interfaces, Constructors, Methods, and Fields Chapter 7
+[ 380 ]
+152. Getting the annotation of a receiver type: Write a program that gets the
+annotation on a receiver type.
+153. Getting synthetic and bridge constructs: Write a program that gets
+synthetic and bridge constructs via reflection.
+154. Checking the variable number of arguments: Write a program that checks
+whether a method gets a variable number of arguments.
+155. Checking default methods: Write a program that checks whether a method
+is default.
+156. Nest-based access control via reflection: Write a program that provides
+access to nest-based constructs via reflection.
+157. Reflection for getters and setters: Write several examples that invoke
+getters and setters via reflection. Additionally, write a program that
+generates getters and setters via reflection.
+158. Reflecting annotations: Write several examples of fetching different kinds
+of annotations via reflection.
+159. Invoking an instance method: Write a program that invokes an instance
+method via reflection.
+160. Getting static methods: Write a program that groups the static
+methods of the given class and invokes one of them via reflection.
+161. Getting generic types of methods, fields, and exceptions: Write a program
+that fetches the generic types of the given methods, fields, and exceptions
+via reflection.
+162. Getting public and private fields: Write a program that fetches the public
+and private fields of the given class via reflection.
+163. Working with arrays: Write several examples for working with arrays via
+reflection.
+164. Inspecting modules: Write several examples for inspecting Java 9 modules
+via reflection.
+165. Dynamic proxies: Write a program that relies on dynamic proxies for
+counting the number of invocations of the methods of the given interfaces.

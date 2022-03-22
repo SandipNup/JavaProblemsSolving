@@ -1,0 +1,61 @@
+99. Sorting an array: Write several programs that exemplify different sorting
+algorithms for arrays. Also, write a program for shuffling arrays.
+100. Finding an element in an array: Write several programs that exemplify
+how to find the given element (primitive and object) in a given array. Find
+the index and/or simply check whether the value is in the array.
+101. Checking whether two arrays are equal or mismatches: Write a program
+that checks whether the two given arrays are equals or whether there is a
+mismatch.
+102. Comparing two arrays lexicographically: Write a program that compares
+the given arrays lexicographically.
+Arrays, Collections, and Data Structures Chapter 5
+[ 200 ]
+103. Creating a stream from an array: Write a program that creates a stream
+from the given array.
+104. Minimum, maximum, and average of an array: Write a program that
+computes the maximum, minimum, and average of the given array.
+105. Reversing an array: Write a program that reverses the given array.
+106. Filling and setting an array: Write several examples for filling up an array
+and setting all elements based on a generator function to compute each
+element.
+107. Next Greater Element (NGE): Write a program that returns the NGE for
+each element of an array.
+108. Changing array size: Write a program that adds an element to an array by
+increasing its size by one. In addition, write a program that increases the
+size of an array with the given length.
+109. Creating unmodifiable/immutable collections: Write several examples
+that create unmodifiable and immutable collections.
+110. Mapping a default value: Write a program that gets a value from Map or a
+default value.
+111. Computing whether absent/present in a Map: Write a program that
+computes the value of an absent key or a new value of a present key.
+112. Removal from a Map: Write a program that removes from a Map by means
+of the given key.
+113. Replacing entries from a Map: Write a program that replaces the given
+entries from a Map.
+114. Comparing two maps: Write a program that compares two maps.
+115. Merging two maps: Write a program that merges two given maps.
+116. Copying HashMap: Write a program that performs a shallow and deep
+copy of HashMap.
+117. Sorting a Map: Write a program that sorts a Map.
+118. Removing all elements of a collection that match a predicate: Write a
+program that removes all elements of a collection that match the given
+predicate.
+119. Converting a collection into an array: Write a program that converts a
+collection into an array.
+120. Filtering a collection by List: Write several solutions for filtering a
+collection by a List. Reveal the best way of doing this.
+121. Replacing elements of a List: Write a program that replaces each element
+of a List with the result of applying a given operator to it.
+Arrays, Collections, and Data Structures Chapter 5
+[ 201 ]
+122. Thread-safe collections, stacks, and queues: Write several programs that
+exemplify the usage of Java thread-safe collections.
+123. Breadth-first search (BFS): Write a program that implements the BFS
+algorithm.
+124. Trie: Write a program that implements a Trie data structure.
+125. Tuple: Write a program that implements a Tuple data structure.
+126. Union Find: Write a program that implements the Union Find algorithm.
+127. Fenwick Tree or Binary Indexed Tree: Write a program that implements
+the Fenwick Tree algorithm.
+128. Bloom filter: Write a program that implements the Bloom filter algorithm.

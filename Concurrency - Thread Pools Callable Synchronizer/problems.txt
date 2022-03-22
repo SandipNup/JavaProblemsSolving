@@ -1,0 +1,60 @@
+199. Thread life cycle states: Write several programs that capture each life cycle
+state of a thread.
+200. Object- versus class-level locking: Write several examples that exemplify
+object- versus class-level locking via thread synchronization.
+201. Thread pools in Java: Provide a brief overview of thread pools in Java.
+202. Thread pool with a single thread: Write a program that simulates an
+assembly line for checking and packing up bulbs using two workers.
+203. Thread pool with a fixed number of threads: Write a program that
+simulates an assembly line for checking and packing up bulbs using
+multiple workers.
+Concurrency - Thread Pools, Callables, and Synchronizers Chapter 10
+[ 565 ]
+204. Cached and scheduled thread pools: Write a program that simulates an
+assembly line for checking and packing up bulbs using workers as needed
+(for example, adapt the number of packers (increase or decrease) to ingest
+the incoming flux produced by the checker).
+205. Work-stealing thread pool: Write a program that relies on a work-stealing
+thread pool. More precisely, write a program that simulates an assembly
+line for checking and packing up bulbs as follows: checking takes place
+during the day, and packing takes place at night. The checking process
+results in a queue of 15 million bulbs every day.
+206. Callable and Future: Write a program that simulates an assembly line
+for checking and packing up bulbs using Callable and Future.
+207. Invoking multiple Callable tasks: Write a program that simulates an
+assembly line for checking and packing up bulbs as follows: checking takes
+place during the day, and packing takes place at night. The checking
+process results in a queue of 100 bulbs every day. The packing process
+should pack and return all the bulbs at once. In other words, we should
+submit all Callable tasks and wait for all of them to complete.
+208. Latches: Write a program that relies on CountDownLatch to simulate the
+process of starting a server. The server is considered started after its
+internal services have started. Services can be started concurrently and are
+independent of each other.
+209. Barriers: Write a program that relies on CyclicBarrier to simulate the
+process of starting a server. The server is considered started after its
+internal services have started. Services can be prepared for start
+concurrently (this is time-consuming), but they run interdependently –
+therefore, once they are ready to start, they must be started all at once.
+210. Exchangers: Write a program that simulates using Exchanger, an
+assembly line for checking and packing up bulbs using two workers. A
+worker (the checker) is checking bulbs and adding them in a basket. When
+the basket is full, the worker gives it to the other worker (the packer) from
+whom they receive an empty basket. The process repeats until the assembly
+line stops.
+211. Semaphores: Write a program that simulates using one Semaphore per
+day at the barbershop. Mainly, our barbershop can serve a maximum of
+three people at a time (it has only three seats). When a person arrives at the
+barbershop, they try to take a seat. After they are served by a barber, the
+person releases the seat. If a person arrives at the barbershop when all three
+seats are taken, they must wait for a certain amount of time. If this time
+elapses and no seats have been freed, they will leave the barbershop.
+Concurrency - Thread Pools, Callables, and Synchronizers Chapter 10
+[ 566 ]
+212. Phasers: Write a program that relies on Phaser to simulate the process of
+starting a server in three phases. The server is considered started after its
+five internal services have started. At the first phase, we need to
+concurrently start three services. At the second phase, we need to
+concurrently start two more two services (these can be started only if the
+first three are already running). At phase three, the server performs a final
+check-in and is considered started.

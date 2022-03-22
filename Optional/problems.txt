@@ -1,0 +1,65 @@
+226. Initializing Optional: Write a program that exemplifies the right and
+wrong approaches for initializing Optional.
+227. Optional.get() and missing value: Write a program that exemplifies the
+right and wrong usage of Optional.get().
+Optional Chapter 12
+[ 703 ]
+228. Returning an already-constructed default value: Write a program that,
+when no value is present, sets (or returns) an already-constructed default
+value via the Optional.orElse() method.
+229. Returning a non-existent default value: Write a program that, when no
+value is present, sets (or returns) a non-existent default value via the
+Optional.orElseGet() method.
+230. Throwing NoSuchElementException: Write a program that, when no
+value is present, throws an exception of
+the NoSuchElementException type or another exception.
+231. The Optional and null references: Write a program that exemplifies the
+correct usage of Optional.orElse(null).
+232. Consuming a present Optional class: Write a program that consumes a
+present Optional class via ifPresent() and via ifPresentElse().
+233. Returning a present Optional class or another one: Let's assume that we
+have Optional. Write a program that relies on Optional.or() for
+returning this Optional (if its value is present) or another Optional class
+(if its value is not present).
+234. Chaining lambdas via orElseFoo(): Write a program that exemplifies the
+usage of orElse() and orElseFoo() for avoiding disrupting lambda
+chains.
+235. Do not use Optional just for getting a value: Exemplify the bad practice
+of chaining the Optional methods with the single purpose of getting some
+values.
+236. Do not use Optional for fields: Exemplify the bad practice of declaring
+fields of the Optional type.
+237. Do not use Optional in constructor args: Exemplify the bad practice of
+using Optional in constructors arguments.
+238. Do not use Optional in setters args: Exemplify the bad practice of using
+Optional in setter arguments.
+239. Do not use Optional in methods args: Exemplify the bad practice of using
+Optional in method arguments.
+240. Do not use Optional to return empty or null collections or arrays:
+Exemplify the bad practice of using Optional for returning the
+empty/null collections or arrays.
+Optional Chapter 12
+[ 704 ]
+241. Avoiding Optional in collections: Using Optional in collections can be a
+design smell. Exemplify a typical use case and possible alternatives for
+avoiding Optional in collections.
+242. Confusing of() with ofNullable(): Exemplify the potential
+consequences of confusing Optional.of() with ofNullable().
+243. Optional<T> versus OptionalInt: Exemplify the usage of non-generic
+OptionalInt instead of Optional<T>.
+244. Asserting equality of Optional classes: Exemplify asserting the equality
+of Optional classes.
+245. Transforming values via map() and flatMap(): Write several snippets of
+code for exemplifying the usage of Optional.map() and flatMap().
+246. Filter values via Optional.filter(): Exemplify the usage of
+Optional.filter() for rejecting wrapped values based on a predefined
+rule.
+247. Chaining the Optional and Stream APIs: Exemplify the usage of
+Optional.stream() for chaining the Optional API with the Stream
+API.
+248. Optional and identity-sensitive operations: Write a snippet of code that
+sustains the fact that identity-sensitive operations should be avoided in the
+case of Optional.
+249. Return boolean if Optional is empty: Write two snippets of code for
+exemplifying two solutions for returning boolean if the given
+Optional class is empty.

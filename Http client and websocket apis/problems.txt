@@ -1,0 +1,45 @@
+250. HTTP/2: Provide a brief overview of the HTTP/2 protocol
+251. Triggering an asynchronous GET request: Write a program that uses the
+HTTP Client API to trigger an asynchronous GET request and display the
+response code and body.
+252. Setting a proxy: Write a program that uses the HTTP Client API to set up a
+connection via a proxy.
+253. Setting/getting headers: Write a program that adds additional headers to
+the request and gets the headers of the response.
+The HTTP Client and WebSocket APIs Chapter 13
+[ 736 ]
+254. Specifying the HTTP method: Write a program that specifies the HTTP
+method of a request (for example, GET, POST, PUT, and DELETE).
+255. Setting the request body: Write a program that uses the HTTP Client API
+to add a body to a request.
+256. Setting connection authentication: Write a program that uses the HTTP
+Client API to set up a connection authentication via username and
+password.
+257. Setting a timeout: Write a program that uses the HTTP Client API to set
+the amount of time we want to wait for a response (timeout).
+258. Setting the redirect policy: Write a program that uses the HTTP Client API
+to automatically redirect if needed.
+259. Sending sync and async requests: Write a program that sends the same
+request in sync and async modes.
+260. Handling cookies: Write a program that uses the HTTP Client API to set a
+cookie handler.
+261. Getting response information: Write a program that uses the HTTP Client
+API to get information about the response (for example, URI, version,
+headers, status code, body, and so on).
+262. Handling response body types: Write several snippets of code to
+exemplify how to handle common response body types via
+HttpResponse.BodyHandlers.
+263. Getting, updating, and saving a JSON: Write a program that uses the
+HTTP Client API to get, update, and save a JSON.
+264. Compression: Write a program that handles compressed responses (for
+example, .gzip).
+265. Handling form data: Write a program that uses the HTTP Client API to
+submit a data form (application/x-www-form-urlencoded).
+266. Downloading a resource: Write a program that uses the HTTP Client API
+to download a resource.
+267. Uploading with multipart: Write a program that uses the HTTP Client API
+to upload a resource.
+268. HTTP/2 server push: Write a program that exemplifies the HTTP/2 server
+push feature via the HTTP Client API.
+269. WebSocket: Write a program that opens a connection to a WebSocket
+endpoint, collects data for 10 seconds, and closes the connection

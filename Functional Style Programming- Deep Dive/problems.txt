@@ -1,0 +1,47 @@
+177. Testing high-order functions: Write several unit tests for testing so-called
+high-order functions.
+178. Testing methods that use lambdas: Write several unit tests for testing
+methods that use lambdas.
+179. Debugging lambdas: Provide a technique for debugging lambdas.
+180. Filtering the non-zero elements of a stream: Write a stream pipeline that
+filters the non-zero elements of a stream.
+Functional Style Programming - a Deep Dive Chapter 9
+[ 473 ]
+181. Infinite streams, takeWhile(), and dropWhile(): Write several snippets
+of code that work with infinite streams. In addition, write several examples
+of working with the takeWhile() and dropWhile() APIs.
+182. Mapping a stream: Write several examples of mapping a stream via map()
+and flatMap().
+183. Finding different elements in a stream: Write a program for finding
+different elements in a stream.
+184. Matching different elements in a stream: Write a program for matching
+different elements in a stream.
+185. Sum, max, and min in a stream: Write a program for computing the sum,
+max, and min of the given stream via primitive specializations of Stream
+and Stream.reduce().
+186. Collecting the results of a stream: Write several snippets of code for
+collecting the results of a stream in a list, map, and set.
+187. Joining the results of a stream: Write several snippets of code for joining
+the results of a stream into a String.
+188. Summarization collectors: Write several snippets of code to reveal the
+usage of summarization collectors.
+189. Grouping: Write snippets of code for working with groupingBy()
+collectors.
+190. Partitioning: Write several snippets of code for working with
+partitioningBy() collectors.
+191. Filtering, flattening, and mapping collectors: Write several snippets of
+code for exemplifying the usage of filtering, flattening, and mapping
+collectors.
+192. Teeing: Write several examples that merge the results of two collectors
+(JDK 12 and Collectors.teeing()).
+193. Writing a custom collector: Write a program that represents a custom
+collector.
+194. Method reference: Write an example of method reference.
+195. Parallel processing of streams: Provide a brief overview of the parallel
+processing of streams. Provide at least one example each for
+parallelStream(), parallel(), and spliterator().
+196. Null-safe streams: Write a program that returns a null-safe stream from an
+element or a collection of elements.
+197. Composing functions, predicates, and comparators: Write several
+examples for composing functions, predicates, and comparators.
+198. Default methods: Write an interface that contains a default method

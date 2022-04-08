@@ -1,12 +1,15 @@
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
-
-public class test {
-    public static void main(String[] args) {
-        LocalDate localDate = LocalDate.of(2015, 07, 17);
-        System.out.println(localDate.format(DateTimeFormatter.ofPattern("MMM dd, yyyy")));
-        System.out.println(localDate.format(DateTimeFormatter.ofPattern("E, MMM dd, yyyy")));
-        System.out.println(localDate.format(DateTimeFormatter.ofPattern("MM/dd/yyyy")));
+class Animal	{
+    String	name;
+    public Animal()	{
+        this.name =	"Default	Name";
+    }
+    //	This	is	called	a	one	argument	constructor.
+    public Animal(String name)	{
+        this.name =	name;
+    }
+    public static void main(String[]	args)	{
+        Animal animal = new Animal();
+        System.out.println("Compiled and runned");
+        System.out.println(animal.name);
     }
 }
-

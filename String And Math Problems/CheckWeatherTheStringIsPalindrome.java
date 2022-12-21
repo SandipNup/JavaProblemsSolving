@@ -46,6 +46,5 @@ public class CheckWeatherTheStringIsPalindrome {
         System.out.println(CheckWeatherTheStringIsPalindrome.checkPalidrome2("MADAM"));
         System.out.println(CheckWeatherTheStringIsPalindrome.checkPalidrome3("BACAB"));
         System.out.println(CheckWeatherTheStringIsPalindrome.checkPalidrome3("DADDY"));
-
     }
 }

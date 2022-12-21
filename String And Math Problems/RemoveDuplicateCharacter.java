@@ -6,14 +6,18 @@ public class RemoveDuplicateCharacter {
     public static String removeDuplicate(String str){
         StringBuilder uniqueString = new StringBuilder();
 
-        for(int i =0; i < str.length()-1; i++){
+        for(int i =0; i < str.length(); i++){
             char charAtI = str.charAt(i);
             String replacedStr = str.replace(String.valueOf(charAtI), "");
             if(replacedStr.length() == str.length()-1){
                 uniqueString.append(charAtI);
             }
-            else{
-                uniqueString.append(charAtI);
+            else {
+                if (uniqueString.toString().contains(Character.toString(charAtI))){
+                    continue;
+                }else {
+                    uniqueString.append(charAtI);
+                }
                 // str = str.split(String.valueOf(charAtI))
             }
             // else{

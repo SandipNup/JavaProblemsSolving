@@ -39,7 +39,10 @@ public class CheckNullReferenceInFunctionAndImperative {
     
     public static void main(String[] args) {
         List<Integer> numbers = Arrays.asList(1,2, null, null, 4, 6, null);
-        System.out.println(CheckNullReferenceInFunctionAndImperative.evenIntegers(numbers));
+
+        List<Integer> numbers1 = null;
+//        System.out.println(CheckNullReferenceInFunctionAndImperative.evenIntegers(numbers));
         System.out.println(CheckNullReferenceInFunctionAndImperative.evenIntegersSolution2(numbers));
+        System.out.println(CheckNullReferenceInFunctionAndImperative.evenIntegersSolution2(numbers1));
     }
 }

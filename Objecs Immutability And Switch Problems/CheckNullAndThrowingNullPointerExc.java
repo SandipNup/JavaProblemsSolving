@@ -32,3 +32,26 @@
 
 //     }
 // }
+
+import java.awt.*;
+import java.util.Objects;
+
+public class CheckNullAndThrowingNullPointerExc {
+    private final String name;
+    private final String color;
+
+    public CheckNullAndThrowingNullPointerExc(String name, String color) {
+        this.name = Objects.requireNonNull(name);
+        this.color = Objects.requireNonNull(color);
+    }
+
+    public static void assignDriver(String license, Point location){
+        Objects.requireNonNull(license, "License cannot be null");
+        Objects.requireNonNull(location, "Location cannot be null");
+    }
+
+    public static void main(String[] args) {
+        Point p1 = new Point(3,4);
+        assignDriver("Sandip License", null);
+    }
+}

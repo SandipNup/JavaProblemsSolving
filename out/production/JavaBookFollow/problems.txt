@@ -1,0 +1,53 @@
+78. Simple var example: Write a program that exemplifies the correct usage of
+type inference (var) with respect to the code's readability.
+79. Using var with primitive types: Write a program that exemplifies the
+usage of var with Java primitive types (int, long, float, and double).
+80. Using var and implicit type casting to sustain the code's maintainability:
+Write a program that exemplifies how var and implicit type casting can
+sustain the code's maintainability.
+81. Explicit downcast or better avoid var: Write a program that exemplifies
+the combination of var and explicit downcast and explain why var should
+be avoided.
+82. Avoid using var if the called names don't contain enough type
+information for humans: Provide examples where var should be avoided
+because its combination with called names causes loss of information for
+humans.
+83. Combining LVTI and programming to the interface technique: Write a
+program that exemplifies the usage of var via the programming to the
+interface technique.
+Type Inference Chapter 4
+[ 171 ]
+84. Combining LVTI and the diamond operator: Write a program that
+exemplifies the usage of var with the diamond operator.
+85. Assigning an array to var: Write a program that assigns an array to var.
+86. Using LVTI in compound declarations: Explain and exemplify the usage
+of LVTI with compound declarations.
+87. LVTI and variable scope: Explain and exemplify why LVTI should
+minimize the variable's scope as much as possible.
+88. LVTI and the ternary operator: Write several snippets of code that
+exemplify the advantages of combining LVTI and the ternary operator.
+89. LVTI and for loops: Write several examples that exemplify the usage of
+LVTI in for loops.
+90. LVTI and streams: Write several snippets of code that exemplify the usage
+of LVTI and Java streams.
+91. Using LVTI to break up nested/large chains of expressions: Write a
+program that exemplifies the usage of LVTI for breaking up a nested/large
+chain of expressions.
+92. LVTI and the method return and argument types: Write several snippets
+of code that exemplify the usage of LVTI and Java methods in terms of
+return and argument types.
+93. LVTI and anonymous classes: Write several snippets of code that
+exemplify the usage of LVTI in anonymous classes.
+94. LVTI can be final and effectively final: Write several snippets of code
+that exemplify how LVTI can be used for final and effectively final
+variables.
+95. LVTI and lambdas: Explain via several snippets of code how LVTI can be
+used in combination with lambda expressions.
+96. LVTI and null initializers, instance variables, and catch blocks
+variables: Explain with examples how LVTI can be used in combination
+with null initializers, instance variables, and catch blocks.
+97. LVTI and generic types, T: Write several snippets of code that exemplify
+how LVTI can be used in combination with generic types.
+98. LVTI, wildcards, covariants, and contravariants: Write several snippets of
+code that exemplify how LVTI can be used in combination with wildcards,
+covariants, and contravariants.

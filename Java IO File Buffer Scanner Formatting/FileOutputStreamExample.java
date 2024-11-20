@@ -1,13 +1,15 @@
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.OutputStream;
+import java.io.*;
 
 public class FileOutputStreamExample {
     public static void main(String[] args) {
-        String textToWriteInFile = "This is the text to write in the file to write in the file write this text";
+        String textToWriteInFile = "\n This is the text to write in the file to write in the file write this text";
         try {
-            OutputStream outputStream = new FileOutputStream("D:\\Java\\JavaBookFollow\\Java IO File Buffer Scanner Formatting\\FileOutputStreamExample.txt");
+//            OutputStream outputStream = new FileOutputStream("D:\\Java\\JavaBookFollow\\Java IO File Buffer Scanner Formatting\\FileOutputStreamExample.txt");
+//            OutputStream outputStream = new FileOutputStream("D:\\Java\\JavaBookFollow\\Java IO File Buffer Scanner Formatting\\FileOutputStreamExample.txt", true);
+
+            File file = new File("D:\\Java\\JavaBookFollow\\Java IO File Buffer Scanner Formatting\\FileOutputStreamExample.txt");
+            OutputStream outputStream = new FileOutputStream(file, true);
+
             outputStream.write(textToWriteInFile.getBytes());
             System.out.println("Data has been written to the file");
             outputStream.close();

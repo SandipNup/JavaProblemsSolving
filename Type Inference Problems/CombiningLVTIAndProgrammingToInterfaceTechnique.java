@@ -18,5 +18,6 @@ public class CombiningLVTIAndProgrammingToInterfaceTechnique {
         // inferred as ArrayList<String>
         var playerList = new ArrayList<>(playerStack);
 
+        var playerList3 = List.of("a", "b", "c"); //infereered as List<String>
     }
 }

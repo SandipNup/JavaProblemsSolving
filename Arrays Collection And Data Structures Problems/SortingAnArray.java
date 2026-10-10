@@ -32,20 +32,20 @@ public class SortingAnArray {
         Melon melon2 = new Melon("saru", 21);
         Melon[] melons = {melon1, melon2};
 
-//        Arrays.sort(melons, new Comparator<Melon>(){
-//            @Override
-//            public int compare(Melon m1, Melon m2) {
-//                return Integer.compare(m1.weight, m2.weight);
-//            }
-//        });
-//
-//        System.out.println(Arrays.toString(melons));
-//
-////         using lambdas to sort melons
-//
-//        Arrays.sort(melons, (m1,m2) -> Integer.compare(m1.weight, m2.weight));
-//
-//        System.out.println(Arrays.toString(melons));
+        Arrays.sort(melons, new Comparator<Melon>(){
+            @Override
+            public int compare(Melon m1, Melon m2) {
+                return Integer.compare(m1.weight, m2.weight);
+            }
+        });
+
+        System.out.println(Arrays.toString(melons));
+
+//         using lambdas to sort melons
+
+        Arrays.sort(melons, (m1,m2) -> Integer.compare(m1.weight, m2.weight));
+
+        System.out.println(Arrays.toString(melons));
 
         // using parallelSort method to sort parallel
 //
@@ -59,7 +59,7 @@ public class SortingAnArray {
 
         System.out.println(Arrays.toString(melons));
 //
-//        Arrays.parallelSort(melons, (m1,m2) -> Integer.compare(m1.weight,m2.weight) * -1);
+        Arrays.parallelSort(melons, (m1,m2) -> Integer.compare(m1.weight,m2.weight) * -1);
 
         // to sort an array in descending order you can simply use swap the object place in
         // comparator or simply multiply the result by -1 in comparator logic
